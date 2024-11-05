@@ -26,7 +26,7 @@ const ProfileScreen = ({ route }) => {
       {/* Profile Header */}
       <Image source={require('../assets/pamila.jpg')} style={styles.profileImage} />
       <Text style={[styles.username, { color: isDarkMode ? '#fff' : '#000' }]}>{username}</Text>
-      <Text style={[styles.status, { color: isDarkMode ? '#bbb' : '#555' }]}>Active User</Text>
+      <Text style={[styles.status, { color: isDarkMode ? '#bbb' : '#555' }]}>Active</Text>
       
       {/* Menu Options */}
       <View style={styles.menu}>
